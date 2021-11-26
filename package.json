@@ -1,0 +1,51 @@
+{
+    "name": "datatables.net-staterestore-bm",
+    "description": "StateRestore for DataTables with styling for [Bulma](https://bulma.io/)",
+    "main": "js/stateRestore.bulma.js",
+    "style": "css/stateRestore.bulma.css",
+    "types": "./types/stateRestore.bulma.d.ts",
+    "version": "null",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "StateRestore",
+ "stateSave",
+ "state",
+"reload",
+        "Bulma",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-staterestore": ">=null",
+        "datatables.net-bm": ">=1.11.3",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-StateRestore-Bulma.git"
+    }
+}
