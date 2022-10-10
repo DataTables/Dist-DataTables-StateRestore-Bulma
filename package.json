@@ -2,12 +2,14 @@
     "name": "datatables.net-staterestore-bm",
     "description": "StateRestore for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/stateRestore.bulma.js",
+    "module": "js/stateRestore.bulma.mjs",
     "style": "css/stateRestore.bulma.css",
     "types": "./types/stateRestore.bulma.d.ts",
     "version": "1.1.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
