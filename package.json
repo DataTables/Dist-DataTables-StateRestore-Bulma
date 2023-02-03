@@ -5,7 +5,7 @@
     "module": "js/stateRestore.bulma.mjs",
     "style": "css/stateRestore.bulma.css",
     "types": "./types/types.d.ts",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
