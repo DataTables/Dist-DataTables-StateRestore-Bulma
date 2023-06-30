@@ -4,7 +4,7 @@
     "main": "js/stateRestore.bulma.js",
     "module": "js/stateRestore.bulma.mjs",
     "style": "css/stateRestore.bulma.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/stateRestore.bulma.d.ts",
     "version": "1.2.2",
     "files": [
         "css/**/*.css",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "StateRestore",
-        "stateSave",
-        "state",
-        "reload",
+ "stateSave",
+ "state",
+"reload",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.1",
-        "datatables.net-bm": ">=1.12.1",
+        "datatables.net-staterestore": ">=1.2.2",
+        "datatables.net-bm": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
