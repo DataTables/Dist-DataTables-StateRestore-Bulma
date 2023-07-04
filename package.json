@@ -5,7 +5,7 @@
     "module": "js/stateRestore.bulma.mjs",
     "style": "css/stateRestore.bulma.css",
     "types": "./types/stateRestore.bulma.d.ts",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "StateRestore",
- "stateSave",
- "state",
-"reload",
+        "stateSave",
+        "state",
+        "reload",
         "Bulma",
         "Datatables",
         "jQuery",
