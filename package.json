@@ -5,7 +5,7 @@
     "module": "js/stateRestore.bulma.mjs",
     "style": "css/stateRestore.bulma.css",
     "types": "./types/stateRestore.bulma.d.ts",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": "1.4.0",
-        "datatables.net-bm": ">=1.11.0",
+        "datatables.net-staterestore": "1.4.1",
+        "datatables.net-bm": "1.11 - 2",
         "jquery": ">=1.7"
     },
     "moduleType": [
