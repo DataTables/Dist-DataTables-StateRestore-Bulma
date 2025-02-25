@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-bm';
 import 'datatables.net-staterestore-bm'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
