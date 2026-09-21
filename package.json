@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-staterestore-bm",
     "description": "StateRestore for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/stateRestore.bulma.js",
-    "module": "js/stateRestore.bulma.mjs",
-    "style": "css/stateRestore.bulma.css",
+    "main": "./js/stateRestore.bulma.js",
+    "module": "./js/stateRestore.bulma.mjs",
+    "style": "./css/stateRestore.bulma.css",
     "types": "./types/stateRestore.bulma.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "StateRestore",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/StateRestore.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/stateRestore.bulma.d.ts",
+            "import": "./js/stateRestore.bulma.mjs",
+            "default": "./js/stateRestore.bulma.mjs",
+            "require": "./js/stateRestore.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/stateRestore.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
