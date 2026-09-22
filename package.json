@@ -5,7 +5,7 @@
     "module": "./js/stateRestore.bulma.mjs",
     "style": "./css/stateRestore.bulma.css",
     "types": "./types/stateRestore.bulma.d.ts",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "files": [
         "js",
         "css",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": "2.0.1",
-        "datatables.net-bm": "^3"
+        "datatables.net-staterestore": "2.1.0",
+        "datatables.net-bm": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
