@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/stateRestore.bulma.d.ts",
+            "style": "./css/stateRestore.bulma.css",
             "import": "./js/stateRestore.bulma.mjs",
-            "default": "./js/stateRestore.bulma.mjs",
-            "require": "./js/stateRestore.bulma.js"
+            "require": "./js/stateRestore.bulma.js",
+            "default": "./js/stateRestore.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
